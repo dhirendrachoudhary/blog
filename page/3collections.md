@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Collections
-permalink: https://dhirendrachoudhary.github.io/collection/
+permalink: blog/collection/
 icon: bookmark
 type: page
 ---
