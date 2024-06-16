@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: https://dhirendrachoudhary.github.io/about/
 icon: heart
 type: page
 ---
