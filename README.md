@@ -1,1 +1,1 @@
-# studybuddy.github.io
+# study-buddy.github.io
