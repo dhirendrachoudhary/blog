@@ -4,8 +4,8 @@ layout: default
 
 <div class="page clearfix" index>
   <div class="left">
-    <h1>Welcome to HyG's Blog!</h1>
-    <small>这里记录着我的前端学习之路</small>
+    <h1>Welcome all DataNerds!</h1>
+    <small>Welcome all DataNerds</small>
     <hr />
     <ul>
       {% for post in paginator.posts %}
@@ -103,7 +103,7 @@ layout: default
           {% for category in site.categories %}
           <li>
             <a
-              href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}"
+              href="{{ site.baseurl }}/{{ site.category_dir }}#{{ category | first }}"
               class="categories-list-item"
               cate="{{ category | first }}"
             >
@@ -136,7 +136,7 @@ layout: default
           | minus: base %} {% else %} {% assign color = 8 | minus: base %} {%
           endif %}
           <a
-            href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}"
+            href="{{ site.baseurl }}/{{ site.tag_dir }}#{{ tag[0] }}"
             style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};"
             >{{ tag[0] }}</a
           >
