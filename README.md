@@ -1,1 +1,1 @@
-# study-buddy.github.io
+# datanerd.github.io
